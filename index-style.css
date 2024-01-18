@@ -301,15 +301,22 @@ font-weight: 400;
 margin-top: 0;
 margin-bottom: 5px;
 }
-
-
-
-
-
-
-
-
-
+/*footer section style*/
+.foot{
+    background: rgba(19, 19, 24, 0.05);
+    padding: 100px 300px;
+}
+.foot *{
+    align-items: center;
+    text-align: center;
+}
+.foot div{
+    margin: 0 180px;
+}
+.copyright{
+    margin-top: 100px;
+    margin-bottom: 0;
+}
 /*responsive media query*/
 /*mobile devise*/
 @media screen and (max-width:600px) {
@@ -320,7 +327,7 @@ margin-bottom: 5px;
         width: 90%;
         margin: 0 auto;
     }
-    .nav, .tour, .row, .card-flex, .wacth{
+    .nav, .tour, .row, .card-flex, .wacth,  .Newsletter{
         flex-direction: column;
         gap: 20px;
     }
@@ -339,7 +346,7 @@ margin-bottom: 5px;
     .header-from form *{
         width: 100%;
     }
-    .card{
+    .card, .text-container{
         height: 100%;
         width: 90%;
     }
@@ -352,7 +359,7 @@ height: 297px;
         bottom: 420px;
         left: 20px;
     }
-    
-    
-    
+    .foot{
+        padding:10px;
+    } 
 }
